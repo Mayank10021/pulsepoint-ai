@@ -65,17 +65,16 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 
 
-Demo Video
-
- Working Demo (Screen Recording):
+## Demo Video
+Working Demo (Screen Recording):
 (https://drive.google.com/file/d/1bNvZ5925Vl68e_AxXwXx2sF7W1q1BDQd/view?usp=drive_link)
 
-Output
+## Output
 
 Automatically generates 3–5 short video reels
 Each reel is suitable for social media sharing (Reels / Shorts)
 
-Future Enhancements
+## Future Enhancements
 
 AI-based speech transcription (Whisper)
 Emotion & sentiment-based clip selection
@@ -83,6 +82,6 @@ Auto captions generation
 Vertical (9:16) reel formatting
 Viral hook text generation using LLMs
 
-Developed and Created By
+## Developed and Created By
 Mayank Aneja
 
