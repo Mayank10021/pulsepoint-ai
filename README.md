@@ -68,7 +68,7 @@ python -m streamlit run app.py
 Demo Video
 
  Working Demo (Screen Recording):
-https://drive.google.com/file/d/1bNvZ5925Vl68e_AxXwXx2sF7W1q1BDQd/view?usp=drive_link
+(https://drive.google.com/file/d/1bNvZ5925Vl68e_AxXwXx2sF7W1q1BDQd/view?usp=drive_link)
 
 Output
 
