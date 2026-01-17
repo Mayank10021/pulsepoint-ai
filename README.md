@@ -1,29 +1,46 @@
-# 🎥 PulsePoint AI
+# 🚀 PulsePoint AI
 
-PulsePoint AI is an AI-powered video processing tool that automatically extracts the most emotional and impactful moments from long videos and converts them into short, shareable reels.
-
-This project is designed for hackathons and content creators who want quick highlights without manual editing.
+## 🏆 Hackathon
+**ByteSize Sage AI Hackathon**  
+*Master the Attention Economy with Generative AI*
 
 ---
 
-## 🚀 Features
+## 📌 Problem Statement
+Long-form educational and informational videos contain valuable insights, but today’s audiences prefer short, engaging, and easily consumable content. Manually identifying key moments and creating short clips is time-consuming and inefficient.
 
-- 🎧 Extract audio from video automatically
-- 📝 Transcribe speech into text
-- ❤️ Detect emotional / important moments
-- ✂️ Generate short video clips (reels)
-- 🖥️ Simple Streamlit-based UI
-- 🧩 Modular and extensible architecture
+---
+
+## 💡 Solution
+**PulsePoint AI** is an AI-powered system that automatically converts long-form videos into short, high-impact reels by intelligently identifying important moments and clipping them.  
+The platform helps creators, educators, and businesses maximize reach and engagement in the attention economy.
+
+---
+
+## ✨ Key Features
+- Upload long-form video (lecture, podcast, talk, etc.)
+- Automatic key-moment identification
+- Generates multiple short reels from a single video
+- Handles both short and long videos gracefully
+- Robust error handling (no-audio / short clips)
+- Simple and interactive Streamlit web interface
 
 ---
 
 ## 🛠️ Tech Stack
+- **Python**
+- **Streamlit** – Web Interface
+- **MoviePy** – Video Processing
+- *(Planned Enhancements)* Whisper, Gemini API, Auto Captions
 
-- Python 3.9+
-- Streamlit
-- MoviePy
-- FFmpeg
-- (Future-ready for OpenAI Whisper / Gemini)
+---
+
+## ⚙️ How It Works
+1. User uploads a long-form video
+2. Audio is extracted (if available)
+3. Key moments are identified
+4. Video is clipped into multiple short reels
+5. Reels are displayed and ready to download
 
 ---
 
@@ -40,93 +57,32 @@ pulsepoint-ai/
 ├── requirements.txt # Dependencies
 ├── README.md # Project documentation
 └── LICENSE # Open-source license
-
-yaml
-Copy code
-
 ---
 
 ## ▶️ How to Run the Project
-
-### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-2️⃣ Run the application
+python -m streamlit run app.py
 
-streamlit run app.py
-3️⃣ Upload a video
-Supported format: .mp4
 
-Click Process Video
+Demo Video
 
-Reels will be generated automatically
+ Working Demo (Screen Recording):
+https://drive.google.com/file/d/1bNvZ5925Vl68e_AxXwXx2sF7W1q1BDQd/view?usp=drive_link
 
-🧠 How It Works (Pipeline)
-Audio Extraction
+Output
 
-Extracts audio from the uploaded video.
+Automatically generates 3–5 short video reels
+Each reel is suitable for social media sharing (Reels / Shorts)
 
-Transcription
+Future Enhancements
 
-Converts speech to text (currently dummy, Whisper-ready).
+AI-based speech transcription (Whisper)
+Emotion & sentiment-based clip selection
+Auto captions generation
+Vertical (9:16) reel formatting
+Viral hook text generation using LLMs
 
-Emotion Detection
+Developed and Created By
+Mayank Aneja
 
-Finds emotionally important timestamps.
-
-Clip Generation
-
-Cuts short reels from original video.
-
-🏆 Hackathon Use Case
-🎬 Content creators
-
-🎙️ Podcast highlights
-
-🎓 Educational summaries
-
-📢 Marketing reels
-
-📰 News highlights
-
-🔮 Future Enhancements
-Real-time Whisper transcription
-
-Emotion detection using ML models
-
-Auto captions & subtitles
-
-Vertical (9:16) Instagram/TikTok reels
-
-Cloud deployment
-
-👨‍💻 Team
-Project developed for hackathon submission
-
-Fully open-source and customizable
-
-📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for details.
-
-MIT License
-
-Copyright (c) 2025 PulsePoint AI Team
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
