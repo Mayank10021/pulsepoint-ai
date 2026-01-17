@@ -63,7 +63,7 @@ pulsepoint-ai/
 ```bash
 pip install -r requirements.txt
 python -m streamlit run app.py
-
+```
 
 ## Demo Video
 Working Demo (Screen Recording):
