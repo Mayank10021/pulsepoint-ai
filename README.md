@@ -47,16 +47,27 @@ The platform helps creators, educators, and businesses maximize reach and engage
 ## 📂 Project Structure
 
 pulsepoint-ai/
+
 ├── app.py # Streamlit UI
+
 ├── pipeline.py # Main processing pipeline
+
 ├── extract_audio.py # Audio extraction logic
+
 ├── transcribe.py # Speech-to-text module
+
 ├── emotion_detector.py # Key moment detection
+
 ├── clip_generator.py # Reel generation
+
 ├── output_clips/ # Generated reels
+
 ├── requirements.txt # Dependencies
+
 ├── README.md # Project documentation
+
 └── LICENSE # Open-source license
+
 ---
 
 ## ▶️ How to Run the Project
