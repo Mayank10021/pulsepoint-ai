@@ -52,8 +52,7 @@ Copy code
 ```bash
 pip install -r requirements.txt
 2️⃣ Run the application
-bash
-Copy code
+
 streamlit run app.py
 3️⃣ Upload a video
 Supported format: .mp4
@@ -110,16 +109,6 @@ Fully open-source and customizable
 This project is licensed under the MIT License.
 See the LICENSE file for details.
 
-sql
-Copy code
-
----
-
-# 📜 LICENSE (English – MIT License)
-
-Create a file named **LICENSE** and paste this 👇
-
-```txt
 MIT License
 
 Copyright (c) 2025 PulsePoint AI Team
